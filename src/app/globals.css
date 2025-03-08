@@ -11,10 +11,14 @@
   --dark: #343a40;
 
   /* Font families */
-  --font-primary-heading: var(--font-playfair), "Playfair Display", serif;
-  --font-secondary-heading: var(--font-merriweather), "Merriweather", serif;
-  --font-primary-body: var(--font-montserrat), "Montserrat", sans-serif;
-  --font-secondary-body: var(--font-lato), "Lato", sans-serif;
+  --font-primary-heading: "Playfair Display", var(--font-playfair), Georgia,
+    serif;
+  --font-secondary-heading: "Merriweather", var(--font-merriweather), Georgia,
+    serif;
+  --font-primary-body: "Montserrat", var(--font-montserrat), -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-secondary-body: "Lato", var(--font-lato), -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -66,19 +70,38 @@ a {
 }
 
 .font-heading-primary {
-  font-family: var(--font-primary-heading);
+  font-family: var(--font-primary-heading) !important;
 }
 
 .font-heading-secondary {
-  font-family: var(--font-secondary-heading);
+  font-family: var(--font-secondary-heading) !important;
 }
 
 .font-body-primary {
-  font-family: var(--font-primary-body);
+  font-family: var(--font-primary-body) !important;
 }
 
 .font-body-secondary {
-  font-family: var(--font-secondary-body);
+  font-family: var(--font-secondary-body) !important;
+}
+
+/* Ensure fonts are applied */
+.font-playfair {
+  font-family: "Playfair Display", Georgia, serif !important;
+}
+
+.font-merriweather {
+  font-family: "Merriweather", Georgia, serif !important;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif !important;
+}
+
+.font-lato {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif !important;
 }
 
 /* Elegant styling for buttons */
