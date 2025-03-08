@@ -75,7 +75,7 @@ const Counter = ({
     // For smaller numbers, use smoother increments
     const incrementValue = end <= 100 ? 1 : Math.ceil(end / 100);
 
-    let timer = setInterval(() => {
+    const timer = setInterval(() => {
       start += incrementValue;
       if (start > end) {
         setCount(end);
