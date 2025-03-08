@@ -132,7 +132,7 @@ const ProductsSection = () => {
             <motion.div
               key={product.id}
               variants={itemVariants}
-              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
             >
               <div className="relative h-64">
                 <Image
@@ -142,7 +142,7 @@ const ProductsSection = () => {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-bold mb-2 text-primary font-heading-secondary">
                   {product.name}
                 </h3>
@@ -165,9 +165,11 @@ const ProductsSection = () => {
                     ))}
                   </ul>
                 </div>
-                <button className="btn-primary w-full font-body-secondary tracking-wide">
-                  Learn More
-                </button>
+                <div className="mt-auto pt-4">
+                  <button className="btn-primary w-full font-body-secondary tracking-wide">
+                    Learn More
+                  </button>
+                </div>
               </div>
             </motion.div>
           ))}
@@ -185,7 +187,7 @@ const ProductsSection = () => {
             <motion.div
               key={product.id}
               variants={itemVariants}
-              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
             >
               <div className="relative h-64">
                 <Image
@@ -195,7 +197,7 @@ const ProductsSection = () => {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-bold mb-2 text-primary font-heading-secondary">
                   {product.name}
                 </h3>
@@ -218,9 +220,11 @@ const ProductsSection = () => {
                     ))}
                   </ul>
                 </div>
-                <button className="btn-primary w-full font-body-secondary tracking-wide">
-                  Learn More
-                </button>
+                <div className="mt-auto pt-4">
+                  <button className="btn-primary w-full font-body-secondary tracking-wide">
+                    Learn More
+                  </button>
+                </div>
               </div>
             </motion.div>
           ))}
