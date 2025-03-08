@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Logo from "./Logo";
+// import Logo from "./Logo";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Logo className="mr-2" />
+            {/* <Logo className="mr-2" /> */}
             <span className="text-2xl font-bold text-primary font-heading-primary tracking-tight">
               Ecomotive Motors
             </span>
