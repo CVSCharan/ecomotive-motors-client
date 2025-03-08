@@ -114,7 +114,7 @@ const ProductsSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-gray-700 max-w-2xl mx-auto font-body-primary"
+            className="text-sm text-white text-gray-700 max-w-2xl mx-auto font-body-primary"
           >
             Discover our range of innovative electric vehicles designed for
             efficiency, performance, and environmental responsibility.

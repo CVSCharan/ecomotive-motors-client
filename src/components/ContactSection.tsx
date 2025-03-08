@@ -27,7 +27,7 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-white max-w-2xl mx-auto text-lg p-4"
+            className="text-white max-w-2xl mx-auto text-sm p-4"
           >
             Have questions or want to learn more about our electric vehicles?
             Get in touch with our team today.
@@ -236,13 +236,13 @@ const ContactSection = () => {
             <h3 className="text-2xl font-bold text-primary font-heading-primary border-b-2 border-primary pb-2 inline-block">
               Our Locations
             </h3>
-            <p className="text-white max-w-2xl mx-auto text-lg p-4">
+            <p className="text-white max-w-2xl mx-auto text-sm p-4">
               Visit us at our showrooms and service centers to explore our range
               of electric vehicles and experience exceptional service
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
             {/* Location 1 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
               <div className="p-5 border-b bg-gray-50">
@@ -273,7 +273,7 @@ const ContactSection = () => {
             </div>
 
             {/* Location 2 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+            {/* <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
               <div className="p-5 border-b bg-gray-50">
                 <div className="flex items-center">
                   <div className="bg-primary p-3 rounded-full text-white mr-4 shadow-sm">
@@ -299,7 +299,7 @@ const ContactSection = () => {
                   title="Ecomotive Motors Service Center"
                 ></iframe>
               </div>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </div>
