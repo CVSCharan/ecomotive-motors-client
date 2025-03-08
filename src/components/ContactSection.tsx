@@ -27,7 +27,7 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-black max-w-2xl mx-auto text-lg bg-gray-100 p-4 rounded-lg shadow-sm border-l-4 border-primary"
+            className="text-white max-w-2xl mx-auto text-lg p-4"
           >
             Have questions or want to learn more about our electric vehicles?
             Get in touch with our team today.
@@ -236,7 +236,7 @@ const ContactSection = () => {
             <h3 className="text-2xl font-bold text-primary font-heading-primary border-b-2 border-primary pb-2 inline-block">
               Our Locations
             </h3>
-            <p className="text-black font-body-primary mt-4 max-w-3xl mx-auto text-lg bg-gray-100 p-4 rounded-lg shadow-sm border-l-4 border-primary">
+            <p className="text-white max-w-2xl mx-auto text-lg p-4">
               Visit us at our showrooms and service centers to explore our range
               of electric vehicles and experience exceptional service
             </p>
@@ -250,11 +250,11 @@ const ContactSection = () => {
                   <div className="bg-primary p-3 rounded-full text-white mr-4 shadow-sm">
                     <FaMapMarkedAlt size={20} />
                   </div>
-                  <h4 className="text-xl font-bold font-heading-secondary text-primary">
+                  <h4 className="text-lg font-bold font-heading-secondary text-primary">
                     Magunta Layout Showroom
                   </h4>
                 </div>
-                <p className="text-gray-900 mt-3 font-body-primary font-semibold pl-12">
+                <p className="text-sm text-gray-900 mt-3 font-body-primary font-semibold pl-12">
                   24-7-172/4, Magunta Layout, Nellore, Andhra Pradesh 524003
                 </p>
               </div>
@@ -279,11 +279,11 @@ const ContactSection = () => {
                   <div className="bg-primary p-3 rounded-full text-white mr-4 shadow-sm">
                     <FaMapMarkedAlt size={20} />
                   </div>
-                  <h4 className="text-xl font-bold font-heading-secondary text-primary">
+                  <h4 className="text-lg font-bold font-heading-secondary text-primary">
                     Service Center
                   </h4>
                 </div>
-                <p className="text-gray-900 mt-3 font-body-primary font-semibold pl-12">
+                <p className="text-sm text-gray-900 mt-3 font-body-primary font-semibold pl-12">
                   Mini Bypass Road, Nellore, Andhra Pradesh 524003
                 </p>
               </div>
