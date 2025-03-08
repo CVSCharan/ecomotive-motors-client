@@ -27,7 +27,7 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-gray-700 max-w-2xl mx-auto font-body-primary"
+            className="text-black max-w-2xl mx-auto text-lg bg-gray-100 p-4 rounded-lg shadow-sm border-l-4 border-primary"
           >
             Have questions or want to learn more about our electric vehicles?
             Get in touch with our team today.
@@ -236,7 +236,7 @@ const ContactSection = () => {
             <h3 className="text-2xl font-bold text-primary font-heading-primary border-b-2 border-primary pb-2 inline-block">
               Our Locations
             </h3>
-            <p className="text-gray-900 font-body-primary font-semibold mt-4 max-w-2xl mx-auto">
+            <p className="text-black font-body-primary mt-4 max-w-3xl mx-auto text-lg bg-gray-100 p-4 rounded-lg shadow-sm border-l-4 border-primary">
               Visit us at our showrooms and service centers to explore our range
               of electric vehicles and experience exceptional service
             </p>

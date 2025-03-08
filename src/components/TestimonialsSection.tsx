@@ -10,7 +10,7 @@ const testimonials = [
     name: "Rahul Sharma",
     position: "Business Owner",
     quote:
-      "Switching to Ecomotive Motors' electric scooter has been a game-changer for my daily commute. The battery life is impressive, and I'm saving so much on fuel costs!",
+      "Switching to Ecomotive Motors&apos; electric scooter has been a game-changer for my daily commute. The battery life is impressive, and I&apos;m saving so much on fuel costs!",
     rating: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     name: "Priya Patel",
     position: "Environmental Activist",
     quote:
-      "I've been using the E-Bike Commuter for six months now, and I'm thoroughly impressed with its performance and reliability. The customer service at Ecomotive Motors is exceptional too.",
+      "I&apos;ve been using the E-Bike Commuter for six months now, and I&apos;m thoroughly impressed with its performance and reliability. The customer service at Ecomotive Motors is exceptional too.",
     rating: 5,
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     name: "Vikram Singh",
     position: "IT Professional",
     quote:
-      "The E-Motorcycle Sport exceeded all my expectations. It's powerful, stylish, and the range is perfect for my weekend rides. Highly recommend Ecomotive Motors to anyone looking to go electric.",
+      "The E-Motorcycle Sport exceeded all my expectations. It&apos;s powerful, stylish, and the range is perfect for my weekend rides. Highly recommend Ecomotive Motors to anyone looking to go electric.",
     rating: 4,
   },
   {
@@ -70,8 +70,8 @@ const TestimonialsSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="max-w-2xl mx-auto opacity-90 font-body-primary"
           >
-            Don't just take our word for it. Hear from our satisfied customers
-            about their experience with Ecomotive Motors.
+            {` Don&apos;t just take our word for it. Hear from our satisfied customers
+            about their experience with Ecomotive Motors.`}
           </motion.p>
         </div>
 
@@ -87,7 +87,7 @@ const TestimonialsSection = () => {
             >
               <FaQuoteLeft className="mx-auto text-4xl mb-6 opacity-50" />
               <p className="text-xl md:text-2xl mb-8 italic font-heading-secondary">
-                "{testimonials[activeIndex].quote}"
+                &ldquo;{testimonials[activeIndex].quote}&rdquo;
               </p>
               <div className="flex justify-center mb-4">
                 {[...Array(5)].map((_, i) => (

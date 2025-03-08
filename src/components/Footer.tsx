@@ -147,9 +147,20 @@ const Footer = () => {
       {/* Copyright */}
       <div className="bg-black py-4">
         <div className="container-custom text-center">
-          <p className="font-body-secondary text-sm tracking-wide">
+          <p className="font-body-secondary text-sm tracking-wide mb-2">
             &copy; {new Date().getFullYear()} Ecomotive Motors. All Rights
             Reserved.
+          </p>
+          <p className="font-body-secondary text-sm tracking-wide">
+            Developed with <span className="text-red-500">❤</span> by{" "}
+            <a
+              href="https://charan-cvs.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline font-medium"
+            >
+              CVS CHARAN
+            </a>
           </p>
         </div>
       </div>

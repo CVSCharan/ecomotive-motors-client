@@ -7,7 +7,7 @@ import {
   FaBatteryFull,
   FaCogs,
 } from "react-icons/fa";
-import { FaMotorcycle, FaBicycle } from "react-icons/fa";
+import { FaMotorcycle } from "react-icons/fa";
 
 const services = [
   {

@@ -5,7 +5,6 @@ import {
   FaUsers,
   FaLeaf,
   FaShippingFast,
-  FaSmile,
   FaThumbsUp,
 } from "react-icons/fa";
 

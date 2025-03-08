@@ -63,22 +63,22 @@ const AboutSection = () => {
               variants={itemVariants}
               className="text-gray-700 mb-6 font-body-primary"
             >
-              Ecomotive Motors is a pioneering company in the electric vehicle
+              {` Ecomotive Motors is a pioneering company in the electric vehicle
               industry, dedicated to revolutionizing transportation through
               sustainable and eco-friendly solutions. Founded with a vision to
               reduce carbon footprint and promote clean energy, we have been at
-              the forefront of electric mobility innovation.
+              the forefront of electric mobility innovation.`}
             </motion.p>
 
             <motion.p
               variants={itemVariants}
               className="text-gray-700 mb-8 font-body-primary"
             >
-              Our team of experts combines years of experience in automotive
+              {` Our team of experts combines years of experience in automotive
               engineering, renewable energy, and sustainable design to create
               electric vehicles that don't compromise on performance, style, or
               comfort. We believe that the future of transportation is electric,
-              and we're committed to making that future accessible to everyone.
+              and we're committed to making that future accessible to everyone.`}
             </motion.p>
 
             <motion.div variants={itemVariants}>
@@ -86,10 +86,10 @@ const AboutSection = () => {
                 Our Mission
               </h3>
               <p className="text-gray-700 mb-6 font-body-primary">
-                To accelerate the world's transition to sustainable
+                {` To accelerate the world's transition to sustainable
                 transportation by providing innovative, high-quality electric
                 vehicles and solutions that exceed customer expectations while
-                contributing to a cleaner planet.
+                contributing to a cleaner planet.`}
               </p>
             </motion.div>
 
@@ -98,9 +98,9 @@ const AboutSection = () => {
                 Our Vision
               </h3>
               <p className="text-gray-700 font-body-primary">
-                A world where electric mobility is the standard, not the
+                {` A world where electric mobility is the standard, not the
                 alternative, leading to cleaner air, quieter cities, and a
-                healthier environment for future generations.
+                healthier environment for future generations.`}
               </p>
             </motion.div>
           </div>
