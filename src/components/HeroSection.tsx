@@ -18,18 +18,21 @@ const HeroSection = () => {
           fill
           priority
           className="object-cover"
-          style={{ filter: "brightness(0.7)" }}
+          style={{ filter: "brightness(0.5)" }}
         />
       </div>
 
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black opacity-50 z-[1]"></div>
+
       {/* Content */}
       <div className="container-custom relative z-10 text-white">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl p-8">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading-primary tracking-tight"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading-primary tracking-tight text-white drop-shadow-lg"
           >
             Drive the Future with Ecomotive Motors
           </motion.h1>
@@ -38,7 +41,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-lg md:text-xl mb-8 font-heading-primary font-medium leading-relaxed"
+            className="text-lg md:text-xl mb-8 font-body-primary font-medium leading-relaxed text-white drop-shadow-md"
           >
             Pioneering sustainable mobility solutions for a greener tomorrow.
             Explore our range of electric vehicles designed for efficiency,
@@ -51,12 +54,12 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 font-body-secondary"
           >
-            <Link href="/#products" className="btn-primary">
+            <Link href="/#products" className="btn-primary font-semibold">
               Explore Products
             </Link>
             <Link
               href="/#contact"
-              className="bg-white text-primary px-6 py-2 rounded-md hover:bg-gray-100 transition-all duration-300"
+              className="bg-white text-primary px-6 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 font-semibold shadow-md"
             >
               Contact Us
             </Link>
@@ -72,8 +75,10 @@ const HeroSection = () => {
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10"
       >
         <div className="flex flex-col items-center text-white">
-          <span className="mb-2 text-sm">Scroll Down</span>
-          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center p-1">
+          <span className="mb-2 text-sm font-medium drop-shadow-md">
+            Scroll Down
+          </span>
+          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center p-1 shadow-md">
             <motion.div
               animate={{ y: [0, 12, 0] }}
               transition={{ repeat: Infinity, duration: 1.5 }}
